@@ -11,7 +11,7 @@ import (
 
 func main() {
 
-	desiredPrefix := "hello"  //don't put more than 5 unless you want to wait ALOT
+	desiredPrefix := "sol"  //don't put more than 3 unless you want to wait.... ALOT
 
 	start := time.Now()
 	var ops uint64
