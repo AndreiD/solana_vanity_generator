@@ -30,7 +30,7 @@ func main() {
 
 					if strings.HasPrefix(account.PublicKey().String(), desiredPrefix) {
 						log.Println("-------------------------")
-						log.Printf("public key: %s [private key: %s]", account.PublicKey(), account.PrivateKey)
+						log.Printf("public key: %s [private key: %s]", account.PublicKey().String(), account.PrivateKey)
 					}
 
 					atomic.AddUint64(&ops, 1)
